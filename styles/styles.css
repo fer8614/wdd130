@@ -1,3 +1,18 @@
+nav {
+    background-color: grey;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: green;
+}
+
 main {
     max-width: 840px;
 }
@@ -5,6 +20,13 @@ main {
 main img {
     width: 200px;
     height: auto;
+    border: 1px solid grey;
+    padding: 2px;
+    box-shadow: 0 0 30px gainsboro;
+}
+
+p {
+    padding: 0;
 }
 
 aside {
@@ -20,10 +42,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-p {
-    padding: 0;
 }
 
 footer {
