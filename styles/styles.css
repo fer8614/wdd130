@@ -1,16 +1,30 @@
+:root {
+    --heading-background-color: grey;
+    --heading-text-color: green;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb (0 0 0 / 0.1);
+}
+
 nav {
-    background-color: grey;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
 nav a {
     color: white;
-    padding: 10px;
+    padding: var(--padding);
     display: block;
+    font-family: var(--heading-font);
 }
 
 h1 {
-    color: green;
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+}
+
+h2 {
+    font-family: var(--heading-font);
 }
 
 main {
@@ -27,14 +41,15 @@ main img {
 
 p {
     padding: 0;
+    font-family: var(--heading-font);
 }
 
 aside {
     width: 95%;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.1);
-    padding: 1rem;
-    background-color: #808080;
+    border: var(--border);
+    padding: var(--padding);
+    background-color: var(--heading-background-color);
     color: #e9e4e4;
     text-align: center;
 }
