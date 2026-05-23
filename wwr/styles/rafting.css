@@ -28,7 +28,6 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 120px 1fr;
     align-items: center;
     padding: 10px 0;
 }
@@ -49,11 +48,6 @@ nav a {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 700;
-}
-
-nav a:hover {
-    color: var(--accent1-color);
-    text-decoration: underline;
 }
 
 h1,
