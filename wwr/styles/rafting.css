@@ -85,6 +85,7 @@ h2 {
     background-color: var(--overlay-color);
     color: var(--accent2-color);
     font-size: 2rem;
+    border-bottom: 1px solid var(--heading-border-color);
 }
 
 .hero article {
@@ -123,6 +124,7 @@ h2 {
     text-align: center;
     padding: 12px 0;
     margin-bottom: 10px;
+    border-bottom: 1px solid var(--heading-border-color);
 }
 
 .history-content {
@@ -188,7 +190,6 @@ footer p {
     gap: 10px;
     align-items: center;
     justify-self: end;
-    background-color: transparent;
     padding: 0;
 }
 
