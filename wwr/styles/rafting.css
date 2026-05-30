@@ -3,8 +3,13 @@
     --secondary-color: #d9e7ff;
     --accent1-color: #264653;
     --accent2-color: #ffffff;
-    --heading-font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    --body-font: Arial, Helvetica, sans-serif;
+
+    --text-color: #222222;
+    --page-bg-color: #ffffff;
+    --overlay-color: #1f3d73c7;
+    --overlay-border-color: #ffffff59;
+    --heading-border-color: #ffffff;
+    --footer-border-color: #d9e7ff;
 }
 
 * {
@@ -14,9 +19,9 @@
 }
 
 body {
-    font-family: var(--body-font);
-    color: #222;
-    background: var(--accent2-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: var(--page-bg-color);
 }
 
 header,
@@ -43,7 +48,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: var(--secondary-color);
+    background-color: var(--secondary-color);
     padding: 1rem;
 }
 
@@ -51,11 +56,12 @@ nav a {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 700;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .hero {
@@ -76,7 +82,7 @@ h2 {
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    background: rgba(31, 61, 115, 0.75);
+    background-color: var(--overlay-color);
     color: var(--accent2-color);
     font-size: 2rem;
 }
@@ -87,7 +93,7 @@ h2 {
     right: 20px;
     bottom: 20px;
     padding: 14px 16px;
-    background: rgba(31, 61, 115, 0.78);
+    background-color: var(--overlay-color);
     color: var(--accent2-color);
 }
 
@@ -97,7 +103,7 @@ h2 {
     height: auto;
     margin-left: 16px;
     margin-bottom: 4px;
-    border: 2px solid rgba(255, 255, 255, 0.35);
+    border: 2px solid var(--overlay-border-color);
 }
 
 .hero article p {
@@ -112,7 +118,7 @@ h2 {
 
 .history h2,
 .adventures h2 {
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
     padding: 12px 0;
@@ -166,7 +172,7 @@ h2 {
 footer {
     margin-top: 24px;
     padding: 12px 0;
-    border-top: 1px solid var(--secondary-color);
+    border-top: 1px solid var(--footer-border-color);
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
@@ -182,7 +188,7 @@ footer p {
     gap: 10px;
     align-items: center;
     justify-self: end;
-    background: transparent;
+    background-color: transparent;
     padding: 0;
 }
 
