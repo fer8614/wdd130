@@ -1,0 +1,128 @@
+:root {
+    --bg: #ffffff;
+    --text: #111111;
+    --accent: #2f0d8f;
+    --border: #c9c9c9;
+    --title: #1d2277;
+    --main: #555555;
+    --form: #dddddd;
+    --code-bg: #111111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+main.box {
+    max-width: 470px;
+    margin: 10px 0 20px 14px;
+    padding: 18px 18px 20px;
+    background-color: var(--main);
+    color: var(--bg);
+    border: 1px solid #666666;
+}
+
+h1 {
+    margin: 0 0 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--title);
+    font-size: 1.85rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+form {
+    background-color: var(--form);
+    color: var(--text);
+    padding: 20px 16px 18px;
+    border: 1px solid #d0d0d0;
+}
+
+.quiz-item {
+    margin-bottom: 16px;
+}
+
+.quiz-item.box {
+    margin: 0 0 16px;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    padding: 8px 10px;
+    font: inherit;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    border: 1px solid var(--border);
+    background-color: #ffffff;
+    color: var(--text);
+}
+
+input {
+    height: 38px;
+}
+
+textarea {
+    min-height: 78px;
+    resize: vertical;
+}
+
+select {
+    height: 38px;
+}
+
+code.box {
+    display: block;
+    width: 76%;
+    margin: 8px auto 14px;
+    padding: 10px 14px;
+    border: none;
+    background-color: var(--code-bg);
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.92rem;
+    font-weight: 700;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--accent);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.96;
+}
