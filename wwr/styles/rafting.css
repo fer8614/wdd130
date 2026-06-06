@@ -197,3 +197,131 @@ footer p {
     width: 32px;
     height: 32px;
 }
+
+/* Contact page */
+
+#contact-page {
+    padding-bottom: 24px;
+}
+
+#contact-page .contact-info {
+    text-align: center;
+    padding: 10px 0 24px;
+}
+
+#contact-page .contact-info h1 {
+    font-size: 2rem;
+    margin-bottom: 6px;
+    color: var(--text-color);
+}
+
+#contact-page .contact-info p {
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+#contact-page .contact-layout {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 24px;
+    margin-bottom: 24px;
+    align-items: stretch;
+}
+
+#contact-page .contact-map {
+    display: flex;
+}
+
+#contact-page .contact-map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border: none;
+    display: block;
+}
+
+#contact-page .contact-form {
+    display: grid;
+    gap: 14px;
+}
+
+#contact-page .form-field {
+    margin-bottom: 4px;
+}
+
+#contact-page .form-field label,
+#contact-page .newsletter,
+#contact-page legend {
+    font-weight: bold;
+}
+
+#contact-page .form-field label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+#contact-page input[type="text"],
+#contact-page input[type="email"],
+#contact-page textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #9a9a9a;
+    border-radius: 4px;
+    font: inherit;
+}
+
+#contact-page fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact-page fieldset label {
+    display: block;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+#contact-page .newsletter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact-page .submit-button {
+    padding: 10px 18px;
+    border: 1px solid #8a8a8a;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#contact-page .contact-employees {
+    margin-top: 24px;
+    border: 1px solid #bdbdbd;
+    padding: 12px;
+}
+
+#contact-page .contact-employees h2 {
+    text-align: center;
+    margin-bottom: 14px;
+    color: var(--text-color);
+}
+
+#contact-page .employee-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    text-align: center;
+}
+
+#contact-page .employee-gallery img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 8px;
+}
