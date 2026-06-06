@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Rafting Rapids</title>
+    <title>Contact Us | Rafting Rapids</title>
     <meta name="description"
       content="Contact Rafting Rapids to plan your next whitewater rafting adventure and get help from our team.">
     <meta name="author" content="Yesid Fernando Cepeda">
@@ -39,7 +39,6 @@
                   referrerpolicy="no-referrer-when-downgrade"
                   title="Map showing Rafting Rapids location"></iframe>
             </div>
-
             <form class="contact-form">
                 <div class="form-field">
                     <label for="name">Name</label>
@@ -54,18 +53,21 @@
                 <fieldset class="form-field">
                     <legend>Message Purpose</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="general" checked>
+                    <label for="purpose-general">
+                        <input id="purpose-general" type="radio" name="purpose" value="general"
+                          checked>
                         General Inquiry
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
+                    <label for="purpose-reservation">
+                        <input id="purpose-reservation" type="radio" name="purpose"
+                          value="reservation">
                         Reservation Question
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
+                    <label for="purpose-suggestion">
+                        <input id="purpose-suggestion" type="radio" name="purpose"
+                          value="suggestion">
                         Website Suggestion
                     </label>
                 </fieldset>
@@ -76,8 +78,8 @@
                       placeholder="Type here"></textarea>
                 </div>
 
-                <label class="newsletter">
-                    <input type="checkbox" name="newsletter">
+                <label class="newsletter" for="newsletter">
+                    <input id="newsletter" type="checkbox" name="newsletter">
                     Please subscribe me to the monthly newsletter
                 </label>
 
