@@ -423,6 +423,16 @@ footer p {
     text-decoration: none;
 }
 
+#home-page .home-grid h2 {
+    background: none;
+    color: #333;
+    border: none;
+    padding: 0;
+    margin: 0 0 16px;
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
 /* Trips page */
 #trips-page {
     padding-bottom: 24px;
@@ -519,4 +529,14 @@ footer p {
 
 #trips-page .trips-table th {
     background-color: var(--secondary-color);
+}
+
+#trips-page .trips-grid h2 {
+    background: none;
+    color: #333;
+    border: none;
+    padding: 0;
+    margin: 0 0 16px;
+    text-align: center;
+    grid-column: 1 / -1;
 }
